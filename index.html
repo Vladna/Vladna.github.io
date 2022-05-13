@@ -5,20 +5,140 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>CV-Vladan Denda</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
-    <script src='scripts/main.js'></script>
+    <link rel='stylesheet' type='text/css' media='all' href='style.css'>
 </head>
 <body>
-    <article id='main-container'>
-        <main id='main-section'>
-            <header id='main-header' class='flex-row-between'>
-                <section>
-                    <div id='name-label'>Vladan Denda</div>
-                    <div id='role-label'>Software engineer</div>
-                </section>
+    <main id='main-section'>
+        <section class='flex-row-between'>
+            <header id='main-header'>
+                <h1 id='name-label'>Vladan Denda</h1>
+                <p id='role-label'>Software engineer</p>
             </header>
-        </main>
-        <footer>Footer</footer>
-    </article>
+            <address class='flex-column'>
+                <span>
+                    <img src='images/location-sign.svg' class='svg-icon' alt='location'>
+                    Belgrade, Serbia
+                </span>
+                <span>
+                    <img src='images/phone-call.svg' class='svg-icon' alt='phone-call'>
+                    <a href='tel:+381644752077'>+381 64 475 2077</a>
+                </span>
+                <span>
+                    <img src='images/gmail.png' class='svg-icon' alt='mail'>
+                    <a href='mailto:vladan.denda@gmail.com'>vladan.denda@gmail.com</a>
+                </span>
+                <span>
+                    <img src='images/linkedin-svgrepo-com.svg' class='svg-icon' alt='linkedin'>
+                    <a href='https://www.linkedin.com/in/vladan-denda-776753160' target="_blank">linkedIn: Vladan Denda</a>
+                </span>
+                <span>
+                    <img src='images/github.png' class='svg-icon' alt='github'>
+                    <a href='https://github.com/Vladna' target="_blank">github.com/Vladna</a>
+                </span>
+            </address>
+        </section>
+        <section class='flex-column default-top-margin'>
+            <div class='section-header'>About me</div>
+            <p>Software engineer currently working as Front End developer for InsideMaps Inc.
+                 I specialize in JavaScript(Typescript) and have profressional experience working with React.</p>
+        </section>
+        <hr>
+        <section class='flex-column'>
+            <div class='section-header'>Working experience</div>
+            <div class="section-margin">
+                <div class='flex-row'>
+                    <span class='default-top-margin flex-row-center'>
+                        <img src='images/insidemaps.png' alt='InsideMaps' class='logo-images'>
+                        <a href="https://www.insidemaps.com/"  target="_blank"><div class='company-name'>InsideMaps Inc.</div></a>
+                    </span>
+                </div>
+                <div class='role-name default-top-margin'>Junior Software enginner</div>
+                <div class='flex-row-between'>
+                    <div class='flex-column default-top-margin'>
+                        <span>Aug 2021-Present</span>
+                        <span>Belgrade, Serbia</span>
+                    </div>
+                    <p style="max-width: 65%; margin-top: 10px;">
+                        Working on developing and maintaining features for web applications and intern tools, also updating old parts of the system (Rewriting AngularJS code into React).
+                            Mostly using React (Class Components), Typescript, AWS, THREE.JS. Working in an agile team with 2 week sprints.
+                        </p>
+                </div>
+                <div class='role-name default-top-margin'>Software enginnering intern</div>
+                <div class='flex-row-between'>
+                    <div class='flex-column default-top-margin'>
+                        <span>Apr 2021-Aug 2021</span>
+                        <span>Belgrade, Serbia</span>
+                    </div>
+                    <p style="max-width: 65%; margin-top: 10px;">During this internship, started working with React. Worked on fixing existing bugs and improving features used troughout the system.
+                        As a peak of internship, I worked alone on developing requested features for intern tool that were later released.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class='flex-column default-bottom-padding'>
+            <div class='section-header'>Education</div>
+            <div class="section-margin">
+                <div class='flex-row'>
+                    <span class='default-top-margin flex-row-center'>
+                        <img src='images/metropolitan.svg' alt='InsideMaps' class='logo-images'>
+                        <a href="https://www.metropolitan.ac.rs/osnovne-studije/fakultet-informacionih-tehnologija/softversko-inzenjerstvo/"  target="_blank"><div class='company-name'>Metropolitan University</div></a>
+                    </span>
+                </div>
+                <div class='flex-column default-top-margin'>
+                    <div class='role-name'>Software enginnering student</div>
+                    <span>2017-TBC</span>
+                    <span>Belgrade, Serbia</span>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class='flex-column default-top-margin default-bottom-padding'>
+            <div class='section-header'>Skills & Technologies</div>
+            <div class="flex-row-between  section-margin">
+                <div>
+                    <h3>Main stack:</h3>
+                    <li>React</li>
+                    <li>JavaScript, Typescript</li>
+                    <li>VCS: Git</li>
+                    <li>Material UI</li>
+                    <li>Agile Developement</li>
+                    <li>Communication</li>
+                </div>  
+                <div>
+                    <h3>Other Technologies I used</h3>
+                    <li>Angular</li>
+                    <li>C#(ASP.NET)</li>
+                    <li>Java</li>
+                    <li>Python(Django)</li>
+                    <li>RDBMS: Sql</li>
+                    <li>Bootstrap</li>
+                    <li>Unified Modeling Language (UML)</li>
+                </div>  
+            </div>         
+        </section>
+        <hr>
+        <section>
+            <div class='section-header'>Projects</div>
+            <div class="flex-column section-margin">
+                <div class='role-name default-top-margin'>(2020) Vine shop (Angular and Firebase)</div>
+                <p>
+                    Online wine shop built using Angular for Front-end and Firebase as database.
+                    Stylization is done with Bootstrap. Application consist of basic store options such as adding new wine , changing existing ones, deleting wines
+                    and adding them to cart.
+                </p>
+                <div class='role-name default-top-margin'>(2020) Library management application (Angular and ASP.NET)</div>
+                <p>
+                    Library management application allows working with two Entities Books and Library members.
+                    The frontend is done with Angular (stylization done with Bootstrap) , and the Backend is done with ASP.NET .
+                </p>
+                <div class='role-name default-top-margin'>(2020) Library management application (Angular and Django)</div>
+                <p>
+                    Used Frontend part that I had already developed for other application. Backend was done using Django, Python framework.
+                </p>
+            </div>
+        </section>
+    </main>
+    <!-- <footer>Footer</footer> -->
 </body>
 </html>

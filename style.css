@@ -1,4 +1,4 @@
-#main-container {
+#main-section {
     width: 210mm;
 }
 
@@ -10,6 +10,7 @@ body {
     display: flex;
     justify-content: center;
     font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
 }
 
 .flex-column {
@@ -28,18 +29,60 @@ body {
     justify-content: space-between;
 }
 
+.flex-row-center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.default-top-margin {
+    margin-top: 10px;
+}
+
+.default-bottom-padding {
+    padding-bottom: 10px;
+}
+
 #name-label {
     font-size: 2.5rem;
+    margin: 0;
 }
 
 #role-label {
     font-size: 1.5rem;
+    margin: 0;
 }
 
-#main-image {
-    height: 100%;
-    width: 100%;
-    max-width: 200px;
-    max-height: 200px;
-    border-radius: 4px;
+.svg-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.logo-images {
+    height: 30px;
+    padding-right: 10px;
+}
+
+address {
+    padding-top: 20px;
+}
+
+.section-header {
+    font-weight: 700;
+    margin: 0;
+    font-size: 25px;
+}
+
+.section-margin {
+    margin: 0 25px;
+}
+
+.company-name {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.role-name {
+    font-size: 16px;
+    font-weight: 600;
 }
